@@ -1,10 +1,19 @@
-in this assignment, you will learn to use the developer's tool to inspect the elements of this webpage.
+## Assignment
 
-What is the right margin of the first element?
+In this assignment, you will learn to use the developer's tool to inspect the elements of [this](https://nznznh.csb.app/) webpage.
+
+1. What is the right margin of the first element? 
+```
 100px
-What is the top padding of the second element?
+```
+
+2. What is the top padding of the second element?
+```
 10px
-What is the class name of the third element and the content of the css?
+```
+
+3. What is the class name of the third element and the content of the css?
+```
 elementThree and 
 {
         padding: 10px;
@@ -13,10 +22,15 @@ elementThree and
         border: gray solid 2px;
         border-radius: 10px;
       }
+```
 
-What is the css selector of the fourth element?
+4. What is the css selector of the fourth element?
+```
       div:nth-child(6) will select the 6th division <div> which in this case is the above
-What is the code you use to keep the blue box within the purple?
+```
+
+5. What is the code you use to keep the blue box within the purple?
+```
       .child {
         border: mediumblue 8px solid;
         /* width: 100%; */
@@ -24,3 +38,15 @@ What is the code you use to keep the blue box within the purple?
         margin: 0;
       }
 comment out the width property, this way it will stretch to be within the margin
+
+```
+
+> hint: you should apply box-sizing property to the `.child` class. Make the changes on the developer's tool to see immediate UI change.
+
+
+
+### Submission 
+
+- Submit the URL of the GitHub Repository that contains your work to NTU black board.
+- Always store your assignments in the `assignments` folder or `assignment.md` file.
+- Should you reference the work of your classmate(s) or online resources, give them credit by adding either the name of your classmate or URL. 
